@@ -190,7 +190,7 @@ text-align: center;
     <p>🚀Marketing gratuito</p>
     </div>
     
-    
+    <button class="cadsbot">Cadastre-se</button>
     
     </div>
     <br><br><br><br><Br>
@@ -198,8 +198,9 @@ text-align: center;
     <!--Este codigo foi feito atenciosamente pelo o progamador pauloaugustosabinocavalcante-->
     <!--Injected by paulo (scripts)-->
     <script>
-        var infodiv = document.getElementById("infodiv")
-var objecttjh = document.getElementById("animation")
+        var button = document.getElementById("cadsbot");
+        var infodiv = document.getElementById("infodiv");
+var objecttjh = document.getElementById("animation");
 var aha  = function() {
     objecttjh.style.opacity = 0
 }
@@ -234,8 +235,10 @@ if (objecttjh.style.marginTop <= 1) {
 
 }
 var margintime = window.setInterval(margincontrol, 1000)
-
-
+var buttonIsClick = function() {
+window.location.href = "https://fidelizamais.netlify.app/my/cadastro";
+}
+button.addEventListener("click",buttonIsClick)
 
     </script>
 </body>
