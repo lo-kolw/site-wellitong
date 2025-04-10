@@ -224,7 +224,6 @@ var opacitytime = window.setInterval(opacitycontrol, 60)
 var margincontrol = function() {
     var currtime = new Date().getTime
     var newmargin = (50 +((currtime + goTime)/1000) *30)
-    infodiv.textContent = objecttjh.style.marginTop;
 if (objecttjh.style.marginTop <= 1) {
     objecttjh.style.marginTop = (parseFloat(objecttjh.style.marginTop) + 1) + "px";
 }else {
